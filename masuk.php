@@ -106,15 +106,37 @@ require 'cek.php'
                                     </button>
                                     <a href="export copy 2.php" class="btn btn-info">Eksport Data</a>
                             <div class="card-body">
+                            <div class="card-body">
                                 <table id="datatablesSimple">
-                                <thead>
+                                <style>
+        table {
+            border-collapse: collapse;
+            
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 18px;
+            width: 660px;
+            height: 3;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+    </style>
+                <div class="card-body">
+                                <table id="datatablesSimple">
+                                <thead><br><br><br>
                                         <tr>
-                                            <th>Tanggal Masuk</th>
-                                            <th>Nama Barang</th>
-                                            <th>Jumlah</th>
-                                            <th>Penerima</th>
-                                     
+                                            <th>NO</th>
+                                            <th>Kode Order</th>
+                                            <th>Kode Customer</th>
+                                            <th>Kode Katalog</th>
+                                            <th>Jumlah Order</th>
                                             <th>Aksi</th>
+                                          
                                         </tr>
                                     </thead>
                                     <?php

@@ -323,7 +323,7 @@
           header('location:pelanggan.php');
             }
     
-        };
+        }; 
     
         //hapus pelanggan
         if(isset($_POST['phapus'])){
